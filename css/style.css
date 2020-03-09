@@ -1,0 +1,59 @@
+body {
+  background: azure;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+}
+
+#quiz {
+  width: 70%;
+  background: darkblue;
+  margin: 10px auto;
+  overflow: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  border-bottom: azure solid 1px;
+  margin-top: 10px;
+}
+
+header h1{
+  font-size: 2em;
+  color: yellow;
+}
+
+header p {
+  margin-top: 5px;
+  color: yellow;
+  font-size: 1.2em;
+}
+
+section {
+  min-height: 400px;
+}
+
+footer {
+  text-align: center;
+}
+
+input[type="submit"] {
+  background: yellow;
+  border: 0;
+  color: black;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#results h3 {
+  background: yellow;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+}
+#results span {
+  color: black;
+  font-weight: bold;
+}
